@@ -26,11 +26,11 @@ describe Muffins::Document do
   context "XML" do
 
     let(:body) { fixture_file("books.xml") }
-    let(:path) { "book" }
+    let(:path) { "Item" }
 
     describe "#all" do
-      it "returns 2 objects" do
-        subject.all(path).size.should eql(2)
+      it "returns 10 objects" do
+        subject.all(path).size.should eql(10)
       end
     end
 

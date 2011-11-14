@@ -1,11 +1,3497 @@
-<?xml version=\"1.0\" encoding=\"UTF-8\"?>
-<books>
-  <book>
-    <isbn>1400079985</isbn>
-    <title>War and Peace (Vintage Classics)</title>
-  </book>
-  <book>
-    <isbn>1143035008</isbn>
-    <title>Anna Karenina (Oprah's Book Club)</title>
-  </book>
-</books>
+<?xml version="1.0"?>
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2011-08-01">
+  <OperationRequest>
+    <HTTPHeaders>
+      <Header Name="UserAgent" Value="Ruby"/>
+    </HTTPHeaders>
+    <RequestId>adadae5f-8080-4d78-aa2b-7385a899a8c3</RequestId>
+    <Arguments>
+      <Argument Name="Sort" Value="relevancerank"/>
+      <Argument Name="Operation" Value="ItemSearch"/>
+      <Argument Name="Service" Value="AWSECommerceService"/>
+      <Argument Name="AWSAccessKeyId" Value="AKIAJAMX5IXWWESXVREA"/>
+      <Argument Name="Timestamp" Value="2011-11-14T20:51:10Z"/>
+      <Argument Name="Signature" Value="SVCDy1aPgC+Os9xtbVUWnVbBOGeVxuPacJnWuvGjM5k="/>
+      <Argument Name="ResponseGroup" Value="Large"/>
+      <Argument Name="ItemPage" Value="1"/>
+      <Argument Name="AssociateTag" Value="sb05e-20"/>
+      <Argument Name="SearchIndex" Value="Books"/>
+      <Argument Name="Version" Value="2011-08-01"/>
+      <Argument Name="Keywords" Value="War and Peace"/>
+    </Arguments>
+    <RequestProcessingTime>0.3715370000000000</RequestProcessingTime>
+  </OperationRequest>
+  <Items>
+    <Request>
+      <IsValid>True</IsValid>
+      <ItemSearchRequest>
+        <ItemPage>1</ItemPage>
+        <Keywords>War and Peace</Keywords>
+        <ResponseGroup>Large</ResponseGroup>
+        <SearchIndex>Books</SearchIndex>
+        <Sort>relevancerank</Sort>
+      </ItemSearchRequest>
+    </Request>
+    <TotalResults>119615</TotalResults>
+    <TotalPages>11962</TotalPages>
+    <MoreSearchResultsUrl>http://www.amazon.com/gp/redirect.html?camp=2025&amp;creative=386001&amp;location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fsearch%3Fkeywords%3DWar%2Band%2BPeace%26url%3Dsearch-alias%253Dstripbooks&amp;linkCode=xm2&amp;tag=sb05e-20&amp;SubscriptionId=AKIAJAMX5IXWWESXVREA</MoreSearchResultsUrl>
+    <Item>
+      <ASIN>160942168X</ASIN>
+      <DetailPageURL>http://www.amazon.com/War-Peace-Leo-Tolstoy/dp/160942168X%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D160942168X</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/War-Peace-Leo-Tolstoy/dp/tech-data/160942168X%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D160942168X</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3D160942168X%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D160942168X</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3D160942168X%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D160942168X</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3D160942168X%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D160942168X</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/160942168X%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D160942168X</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/160942168X%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D160942168X</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/160942168X%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D160942168X</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SalesRank>693153</SalesRank>
+      <ItemAttributes>
+        <Author>Leo Tolstoy</Author>
+        <Binding>Hardcover</Binding>
+        <Creator Role="Translator">Aylmer Maude</Creator>
+        <Creator Role="Translator">Louise Maude</Creator>
+        <EAN>9781609421687</EAN>
+        <EANList>
+          <EANListElement>9781609421687</EANListElement>
+        </EANList>
+        <ISBN>160942168X</ISBN>
+        <Label>Lits</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>2990</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$29.90</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Lits</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>1200</NumberOfPages>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">270</Height>
+          <Length Units="hundredths-inches">940</Length>
+          <Weight Units="hundredths-pounds">405</Weight>
+          <Width Units="hundredths-inches">630</Width>
+        </PackageDimensions>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2011-01-19</PublicationDate>
+        <Publisher>Lits</Publisher>
+        <ReleaseDate>20011-09-01</ReleaseDate>
+        <SKU>9781609421687_nw</SKU>
+        <Studio>Lits</Studio>
+        <Title>War and Peace</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>2791</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$27.91</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1398</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$13.98</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>44444</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$444.44</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>13</TotalNew>
+        <TotalUsed>21</TotalUsed>
+        <TotalCollectible>1</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <MoreOffersUrl>http://www.amazon.com/gp/offer-listing/160942168X%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D160942168X</MoreOffersUrl>
+        <Offer>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>qRBaEtniMlHdMCx19R3Ced195AXya3CggTuxGbfQRN3TkCeolsCcHEdT6%2Fd3ufc%2F3UXccw5ZEW821NvovoInFCpy1hr6QHZOA4%2BKqrgFG460Udx5ZZ1pbg%3D%3D</OfferListingId>
+            <Price>
+              <Amount>2990</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$29.90</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 2 to 3 weeks</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>384</MinimumHours>
+              <MaximumHours>408</MaximumHours>
+            </AvailabilityAttributes>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+      <CustomerReviews>
+        <IFrameURL>http://www.amazon.com/reviews/iframe?akid=AKIAJAMX5IXWWESXVREA&amp;alinkCode=xm2&amp;asin=160942168X&amp;atag=sb05e-20&amp;exp=2011-11-15T20%3A51%3A10Z&amp;v=2&amp;sig=43ITioWep4uHZq4U1QfvoBqIFJ%2BgNU%2F0Vn%2BCZXzFyro%3D</IFrameURL>
+        <HasReviews>true</HasReviews>
+      </CustomerReviews>
+      <EditorialReviews>
+        <EditorialReview>
+          <Source>Product Description</Source>
+          <Content>This epic is considered one of the most celebrated works of fiction and is regarded as Tolstoy's finest literary work. The book details events leading to Napoleon's invasion of Russia, and the impact of the Napoleonic times on Tsarist society. Newsweek in 2009 ranked it top of its list of Top 100 Books.</Content>
+          <IsLinkSuppressed>0</IsLinkSuppressed>
+        </EditorialReview>
+      </EditorialReviews>
+      <SimilarProducts>
+        <SimilarProduct>
+          <ASIN>0679734503</ASIN>
+          <Title>Crime and Punishment</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>1439169462</ASIN>
+          <Title>Anna Karenina (Enriched Classics (Simon &amp; Schuster))</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>0199536066</ASIN>
+          <Title>Anna Karenina (Oxford World's Classics)</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>014104036X</ASIN>
+          <Title>Great Expectations (Penguin Classics)</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>0143035002</ASIN>
+          <Title>Anna Karenina (Oprah's Book Club)</Title>
+        </SimilarProduct>
+      </SimilarProducts>
+      <BrowseNodes>
+        <BrowseNode>
+          <BrowseNodeId>10399</BrowseNodeId>
+          <Name>Classics</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>17</BrowseNodeId>
+              <Name>Literature &amp; Fiction</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>1000</BrowseNodeId>
+                  <Name>Subjects</Name>
+                  <IsCategoryRoot>1</IsCategoryRoot>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>283155</BrowseNodeId>
+                      <Name>Books</Name>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>10163</BrowseNodeId>
+          <Name>Family Saga</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>10134</BrowseNodeId>
+              <Name>Genre Fiction</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>17</BrowseNodeId>
+                  <Name>Literature &amp; Fiction</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>1000</BrowseNodeId>
+                      <Name>Subjects</Name>
+                      <IsCategoryRoot>1</IsCategoryRoot>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>283155</BrowseNodeId>
+                          <Name>Books</Name>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>10177</BrowseNodeId>
+          <Name>Historical</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>10134</BrowseNodeId>
+              <Name>Genre Fiction</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>17</BrowseNodeId>
+                  <Name>Literature &amp; Fiction</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>1000</BrowseNodeId>
+                      <Name>Subjects</Name>
+                      <IsCategoryRoot>1</IsCategoryRoot>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>283155</BrowseNodeId>
+                          <Name>Books</Name>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>1288264011</BrowseNodeId>
+          <Name>All product</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>1267878011</BrowseNodeId>
+              <Name>Products</Name>
+              <IsCategoryRoot>1</IsCategoryRoot>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>1267877011</BrowseNodeId>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>1294449011</BrowseNodeId>
+          <Name>Books</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>1267878011</BrowseNodeId>
+              <Name>Products</Name>
+              <IsCategoryRoot>1</IsCategoryRoot>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>1267877011</BrowseNodeId>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+      </BrowseNodes>
+    </Item>
+    <Item>
+      <ASIN>1400079985</ASIN>
+      <DetailPageURL>http://www.amazon.com/War-Peace-Vintage-Classics-Tolstoy/dp/1400079985%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D1400079985</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/War-Peace-Vintage-Classics-Tolstoy/dp/tech-data/1400079985%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D1400079985</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3D1400079985%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D1400079985</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3D1400079985%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D1400079985</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3D1400079985%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D1400079985</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/1400079985%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D1400079985</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/1400079985%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D1400079985</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/1400079985%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D1400079985</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SalesRank>6509</SalesRank>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/515EIRuH3lL._SL75_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">50</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/515EIRuH3lL._SL160_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">106</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/515EIRuH3lL.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">332</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/515EIRuH3lL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">20</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/515EIRuH3lL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">50</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/515EIRuH3lL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">50</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/515EIRuH3lL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">73</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/515EIRuH3lL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">106</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/515EIRuH3lL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">332</Width>
+          </LargeImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Author>Leo Tolstoy</Author>
+        <Binding>Paperback</Binding>
+        <Creator Role="Translator">Richard Pevear</Creator>
+        <Creator Role="Translator">Larissa Volokhonsky</Creator>
+        <EAN>9781400079988</EAN>
+        <EANList>
+          <EANListElement>9781400079988</EANListElement>
+        </EANList>
+        <Edition>Reprint</Edition>
+        <ISBN>1400079985</ISBN>
+        <ItemDimensions>
+          <Height Units="hundredths-inches">175</Height>
+          <Length Units="hundredths-inches">918</Length>
+          <Weight Units="hundredths-pounds">263</Weight>
+          <Width Units="hundredths-inches">608</Width>
+        </ItemDimensions>
+        <Label>Vintage</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>2000</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$20.00</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Vintage</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>1296</NumberOfPages>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">190</Height>
+          <Length Units="hundredths-inches">940</Length>
+          <Weight Units="hundredths-pounds">265</Weight>
+          <Width Units="hundredths-inches">610</Width>
+        </PackageDimensions>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2008-12-02</PublicationDate>
+        <Publisher>Vintage</Publisher>
+        <ReleaseDate>2008-12-02</ReleaseDate>
+        <SKU>{B1}_1400079985</SKU>
+        <Studio>Vintage</Studio>
+        <Title>War and Peace (Vintage Classics)</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1041</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$10.41</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>777</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$7.77</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$9.99</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>55</TotalNew>
+        <TotalUsed>36</TotalUsed>
+        <TotalCollectible>6</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <MoreOffersUrl>http://www.amazon.com/gp/offer-listing/1400079985%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D1400079985</MoreOffersUrl>
+        <Offer>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>4f%2FM98%2BJOY0ft3m8nAvJcmqwVu1kJYEKjfLZH7%2BSa%2BohOqLiCmER0j6ALWUa7ESLqAqaU3Szsr6GCpbrapezdhsHXlhoWIcOEAAUgDxqpcc%3D</OfferListingId>
+            <Price>
+              <Amount>1360</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$13.60</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>640</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$6.40</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>32</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+      <CustomerReviews>
+        <IFrameURL>http://www.amazon.com/reviews/iframe?akid=AKIAJAMX5IXWWESXVREA&amp;alinkCode=xm2&amp;asin=1400079985&amp;atag=sb05e-20&amp;exp=2011-11-15T20%3A51%3A10Z&amp;v=2&amp;sig=%2FpFZGO8uQpsp3cuJ8RkU7R%2BeIDD44MZ8RfrWbzW46HU%3D</IFrameURL>
+        <HasReviews>true</HasReviews>
+      </CustomerReviews>
+      <EditorialReviews>
+        <EditorialReview>
+          <Source>Product Description</Source>
+          <Content>From the award-winning translators of &lt;i&gt;Anna Karenina&lt;/i&gt; and &lt;i&gt;The Brothers Karamazov&lt;/i&gt; comes this magnificent new translation of Tolstoy's masterwork. &lt;br&gt;&lt;br&gt;&lt;b&gt;War and Peace&lt;/b&gt;&lt;i&gt; &lt;/i&gt;broadly focuses on Napoleon&#x2019;s invasion of Russia in 1812 and follows three of the most well-known characters in literature: Pierre Bezukhov, the illegitimate son of a count who is fighting for his inheritance and yearning for spiritual fulfillment; Prince Andrei Bolkonsky, who leaves his family behind to fight in the war against Napoleon; and Natasha Rostov, the beautiful young daughter of a nobleman who intrigues both men.&lt;br&gt;&lt;br&gt;A s Napoleon&#x2019;s army invades, Tolstoy brilliantly follows characters from diverse backgrounds&#x2014;peasants and nobility, civilians and soldiers&#x2014;as they struggle with the problems unique to their era, their history, and their culture. And as the novel progresses, these characters transcend their specificity, becoming some of the most moving&#x2014;and human&#x2014;figures in world literature.</Content>
+          <IsLinkSuppressed>0</IsLinkSuppressed>
+        </EditorialReview>
+      </EditorialReviews>
+      <SimilarProducts>
+        <SimilarProduct>
+          <ASIN>0143035002</ASIN>
+          <Title>Anna Karenina (Oprah's Book Club)</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>0374528373</ASIN>
+          <Title>The Brothers Karamazov</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>0375702245</ASIN>
+          <Title>The Idiot</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>0679734503</ASIN>
+          <Title>Crime and Punishment</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>0307388867</ASIN>
+          <Title>The Death of Ivan Ilyich and Other Stories</Title>
+        </SimilarProduct>
+      </SimilarProducts>
+      <BrowseNodes>
+        <BrowseNode>
+          <BrowseNodeId>10399</BrowseNodeId>
+          <Name>Classics</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>17</BrowseNodeId>
+              <Name>Literature &amp; Fiction</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>1000</BrowseNodeId>
+                  <Name>Subjects</Name>
+                  <IsCategoryRoot>1</IsCategoryRoot>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>283155</BrowseNodeId>
+                      <Name>Books</Name>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>10177</BrowseNodeId>
+          <Name>Historical</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>10134</BrowseNodeId>
+              <Name>Genre Fiction</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>17</BrowseNodeId>
+                  <Name>Literature &amp; Fiction</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>1000</BrowseNodeId>
+                      <Name>Subjects</Name>
+                      <IsCategoryRoot>1</IsCategoryRoot>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>283155</BrowseNodeId>
+                          <Name>Books</Name>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>10195</BrowseNodeId>
+          <Name>War</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>10134</BrowseNodeId>
+              <Name>Genre Fiction</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>17</BrowseNodeId>
+                  <Name>Literature &amp; Fiction</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>1000</BrowseNodeId>
+                      <Name>Subjects</Name>
+                      <IsCategoryRoot>1</IsCategoryRoot>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>283155</BrowseNodeId>
+                          <Name>Books</Name>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>10433</BrowseNodeId>
+          <Name>Russian</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>10311</BrowseNodeId>
+              <Name>World Literature</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>17</BrowseNodeId>
+                  <Name>Literature &amp; Fiction</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>1000</BrowseNodeId>
+                      <Name>Subjects</Name>
+                      <IsCategoryRoot>1</IsCategoryRoot>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>283155</BrowseNodeId>
+                          <Name>Books</Name>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>10132</BrowseNodeId>
+          <Name>Literary</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>17</BrowseNodeId>
+              <Name>Literature &amp; Fiction</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>1000</BrowseNodeId>
+                  <Name>Subjects</Name>
+                  <IsCategoryRoot>1</IsCategoryRoot>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>283155</BrowseNodeId>
+                      <Name>Books</Name>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+      </BrowseNodes>
+    </Item>
+    <Item>
+      <ASIN>B004ELAHJA</ASIN>
+      <DetailPageURL>http://www.amazon.com/Cambridge-Classics-Critical-Annotated-ebook/dp/B004ELAHJA%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB004ELAHJA</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/Cambridge-Classics-Critical-Annotated-ebook/dp/tech-data/B004ELAHJA%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004ELAHJA</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB004ELAHJA%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004ELAHJA</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB004ELAHJA%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004ELAHJA</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB004ELAHJA%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004ELAHJA</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/B004ELAHJA%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004ELAHJA</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/B004ELAHJA%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004ELAHJA</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/B004ELAHJA%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004ELAHJA</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SalesRank>12566</SalesRank>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/51AkqDXe44L._SL75_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">56</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/51AkqDXe44L._SL160_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">120</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/51AkqDXe44L.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">375</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/51AkqDXe44L._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">22</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/51AkqDXe44L._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">56</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/51AkqDXe44L._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">56</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/51AkqDXe44L._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">82</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/51AkqDXe44L._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">120</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/51AkqDXe44L.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">375</Width>
+          </LargeImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Author>Leo Tolstoy</Author>
+        <Author>Leo Tolstoi</Author>
+        <Binding>Kindle Edition</Binding>
+        <Creator Role="Editor">Cambridge World Classics</Creator>
+        <Creator Role="Foreword">Christopher Hong</Creator>
+        <Creator Role="Translator">Louise Maude</Creator>
+        <Creator Role="Translator">Aylmer Maude</Creator>
+        <Format>Kindle eBook</Format>
+        <Label>Cambridge World Classics</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>99</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$0.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Cambridge World Classics</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <ProductGroup>eBooks</ProductGroup>
+        <ProductTypeName>ABIS_EBOOKS</ProductTypeName>
+        <PublicationDate>2010-11-30</PublicationDate>
+        <Publisher>Cambridge World Classics</Publisher>
+        <ReleaseDate>2010-11-30</ReleaseDate>
+        <Studio>Cambridge World Classics</Studio>
+        <Title>War and Peace (Cambridge World Classics) Critical Edition (Annotated) (Complete Works of Leo Tolstoy / Complete Works of Leo Tolstoi)</Title>
+      </ItemAttributes>
+      <CustomerReviews>
+        <IFrameURL>http://www.amazon.com/reviews/iframe?akid=AKIAJAMX5IXWWESXVREA&amp;alinkCode=xm2&amp;asin=B004ELAHJA&amp;atag=sb05e-20&amp;exp=2011-11-15T20%3A51%3A10Z&amp;v=2&amp;sig=svVPman876CCDsoOcUCeWfqZU%2F83kZZoFlBQwSZdHxE%3D</IFrameURL>
+        <HasReviews>true</HasReviews>
+      </CustomerReviews>
+      <EditorialReviews>
+        <EditorialReview>
+          <Source>Product Description</Source>
+          <Content>ANNOTATED:&lt;br /&gt;&lt;br /&gt;* Contains literary critiques, detailed biographies, and detailed historical context&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;OVERVIEW:&lt;br /&gt;&lt;br /&gt;It is impossible to convey in words Tolstoy&#x2019;s extraordinary capacity to transform a work of fiction into a spiritual quest for truth. Indeed, in War and Peace, it is above all, the exhausted truthfulness in his character that is most striking, revealing a sincerity which seems to fear nothing in exploring the most profound and inexorable philosophical ideas.&lt;br /&gt;&lt;br /&gt;Indeed, it is in this context that Tolstoy&#x2019;s enigmatic remark, namely that War and Peace is "not a novel, even less is it a poem, and still less an historical chronicle" can be understood. For War and Peace certainly is a truly great novel, is an undeniably powerful poem and is a historical chronicle of epic proportions. But underneath the unforgettable scenes of destruction and the beautiful passage on love is a metaphysical treatise on the very nature of Man and his relationship to God. &lt;br /&gt;This collection brings together, for the first time in one volume, Tolstoy&#x2019;s War and Peace with the definitive preface on Tolstoy&#x2019;s lasting literary legacy. &lt;br /&gt;&lt;br /&gt;The masterful translation, which was personally approved by Tolstoy himself, is by Louise and Aylmer Maude.&lt;br /&gt;&lt;br /&gt;SPECIAL KINDLE ENABLED FEATURES:&lt;br /&gt;&lt;br /&gt;This edition has special Kindle enabled features, including interactive table of contents, text-to-speech capabilities which enable audiobook features, as well as words that can be looked up on the Kindle supplied built in dictionary&lt;br /&gt;&lt;br /&gt;</Content>
+          <IsLinkSuppressed>0</IsLinkSuppressed>
+        </EditorialReview>
+        <EditorialReview>
+          <Source>Product Description</Source>
+          <Content>ANNOTATED:&lt;br&gt;&lt;br&gt;* Contains literary critiques, detailed biographies, and detailed historical context&lt;br&gt;&lt;br&gt;&lt;br&gt;OVERVIEW:&lt;br&gt;&lt;br&gt;It is impossible to convey in words Tolstoy&#x2019;s extraordinary capacity to transform a work of fiction into a spiritual quest for truth. Indeed, in War and Peace, it is above all, the exhausted truthfulness in his character that is most striking, revealing a sincerity which seems to fear nothing in exploring the most profound and inexorable philosophical ideas.&lt;br&gt;&lt;br&gt;Indeed, it is in this context that Tolstoy&#x2019;s enigmatic remark, namely that War and Peace is "not a novel, even less is it a poem, and still less an historical chronicle" can be understood. For War and Peace certainly is a truly great novel, is an undeniably powerful poem and is a historical chronicle of epic proportions. But underneath the unforgettable scenes of destruction and the beautiful passage on love is a metaphysical treatise on the very nature of Man and his relationship to God. &lt;br&gt;This collection brings together, for the first time in one volume, Tolstoy&#x2019;s War and Peace with the definitive preface on Tolstoy&#x2019;s lasting literary legacy. &lt;br&gt;&lt;br&gt;The masterful translation, which was personally approved by Tolstoy himself, is by Louise and Aylmer Maude.&lt;br&gt;&lt;br&gt;SPECIAL KINDLE ENABLED FEATURES:&lt;br&gt;&lt;br&gt;This edition has special Kindle enabled features, including interactive table of contents, text-to-speech capabilities which enable audiobook features, as well as words that can be looked up on the Kindle supplied built in dictionary&lt;br&gt;&lt;br&gt;</Content>
+          <IsLinkSuppressed>0</IsLinkSuppressed>
+        </EditorialReview>
+      </EditorialReviews>
+      <SimilarProducts>
+        <SimilarProduct>
+          <ASIN>B004JF4LCU</ASIN>
+          <Title>Anna Karenina (Maude Translation) (Carefully Crafted Classics)</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>B004C058OW</ASIN>
+          <Title>War and Peace (Complete Version, Best Navigation, Active TOC)</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>B0031RGOSG</ASIN>
+          <Title>The Complete Works of Leo Tolstoy (25+ Works with active table of contents)</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>B004WBJ676</ASIN>
+          <Title>200 GREATEST NOVELS, STORIES &amp; POEMS EVER WRITTEN: THE COMPLETE HARVARD CLASSICS LIBRARY SHELF OF FICTION (The Complete Works Collection) 200 Works! Jane ... Mark TWAIN Tolstoy Shakespeare Poe Balzac)</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>B00433TO52</ASIN>
+          <Title>William Shakespeare Complete Works Ultimate Collection: 213 Plays, Poems, Sonnets, Poetry including the 16 rare, hard-to-get Apocryphal Plays PLUS Annotations, Commentaries of Works, Full Biography</Title>
+        </SimilarProduct>
+      </SimilarProducts>
+      <BrowseNodes>
+        <BrowseNode>
+          <BrowseNodeId>10132</BrowseNodeId>
+          <Name>Literary</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>17</BrowseNodeId>
+              <Name>Literature &amp; Fiction</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>1000</BrowseNodeId>
+                  <Name>Subjects</Name>
+                  <IsCategoryRoot>1</IsCategoryRoot>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>283155</BrowseNodeId>
+                      <Name>Books</Name>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>21</BrowseNodeId>
+          <Name>Education &amp; Reference</Name>
+          <Children>
+            <BrowseNode>
+              <BrowseNodeId>11444</BrowseNodeId>
+              <Name>Almanacs &amp; Yearbooks</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>11448</BrowseNodeId>
+              <Name>Atlases &amp; Maps</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>2572</BrowseNodeId>
+              <Name>Careers</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>11626</BrowseNodeId>
+              <Name>Catalogs &amp; Directories</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>11472</BrowseNodeId>
+              <Name>Consumer Guides</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>11475</BrowseNodeId>
+              <Name>Dictionaries &amp; Thesauruses</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>10605</BrowseNodeId>
+              <Name>Education</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>11713</BrowseNodeId>
+              <Name>Encyclopedias</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>11761</BrowseNodeId>
+              <Name>Etiquette</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>16260961</BrowseNodeId>
+              <Name>Foreign Language Nonfiction</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>11773</BrowseNodeId>
+              <Name>Foreign Languages</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>11871</BrowseNodeId>
+              <Name>Fun Facts</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>11880</BrowseNodeId>
+              <Name>Genealogy</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>10975</BrowseNodeId>
+              <Name>Law</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>11891</BrowseNodeId>
+              <Name>Publishing &amp; Books</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>11902</BrowseNodeId>
+              <Name>Quotations</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>301751</BrowseNodeId>
+              <Name>Spanish-Language Reference</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>11904</BrowseNodeId>
+              <Name>Test Prep Central</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>11970</BrowseNodeId>
+              <Name>Words &amp; Language</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>12015</BrowseNodeId>
+              <Name>Writing</Name>
+            </BrowseNode>
+          </Children>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>1000</BrowseNodeId>
+              <Name>Subjects</Name>
+              <IsCategoryRoot>1</IsCategoryRoot>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>283155</BrowseNodeId>
+                  <Name>Books</Name>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>22</BrowseNodeId>
+          <Name>Religion &amp; Spirituality</Name>
+          <Children>
+            <BrowseNode>
+              <BrowseNodeId>12056</BrowseNodeId>
+              <Name>Bible &amp; Other Sacred Texts</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>12279</BrowseNodeId>
+              <Name>Buddhism</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>12290</BrowseNodeId>
+              <Name>Christian Books &amp; Bibles</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>12472</BrowseNodeId>
+              <Name>Earth-Based Religions</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>12489</BrowseNodeId>
+              <Name>Fiction</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>12506</BrowseNodeId>
+              <Name>Hinduism</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>12522</BrowseNodeId>
+              <Name>Islam</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>12540</BrowseNodeId>
+              <Name>Judaism</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>12621</BrowseNodeId>
+              <Name>New Age</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>12689</BrowseNodeId>
+              <Name>Occult</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>12735</BrowseNodeId>
+              <Name>Other Eastern Religions</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>12761</BrowseNodeId>
+              <Name>Other Practices</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>1873</BrowseNodeId>
+              <Name>Religious Art</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>12779</BrowseNodeId>
+              <Name>Religious Studies</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>12809</BrowseNodeId>
+              <Name>Spirituality</Name>
+            </BrowseNode>
+          </Children>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>1000</BrowseNodeId>
+              <Name>Subjects</Name>
+              <IsCategoryRoot>1</IsCategoryRoot>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>283155</BrowseNodeId>
+                  <Name>Books</Name>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>157052011</BrowseNodeId>
+          <Name>Contemporary Fiction</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>157028011</BrowseNodeId>
+              <Name>Fiction</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>154606011</BrowseNodeId>
+                  <Name>Kindle eBooks</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>133141011</BrowseNodeId>
+                      <Name>Categories</Name>
+                      <IsCategoryRoot>1</IsCategoryRoot>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>133140011</BrowseNodeId>
+                          <Name>Kindle Store</Name>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>157053011</BrowseNodeId>
+          <Name>Literary Fiction</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>154606011</BrowseNodeId>
+              <Name>Kindle eBooks</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>133141011</BrowseNodeId>
+                  <Name>Categories</Name>
+                  <IsCategoryRoot>1</IsCategoryRoot>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>133140011</BrowseNodeId>
+                      <Name>Kindle Store</Name>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>158218011</BrowseNodeId>
+          <Name>Russian</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>158194011</BrowseNodeId>
+              <Name>Instruction</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>158192011</BrowseNodeId>
+                  <Name>Foreign Languages</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>158125011</BrowseNodeId>
+                      <Name>Reference</Name>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>154606011</BrowseNodeId>
+                          <Name>Kindle eBooks</Name>
+                          <Ancestors>
+                            <BrowseNode>
+                              <BrowseNodeId>133141011</BrowseNodeId>
+                              <Name>Categories</Name>
+                              <IsCategoryRoot>1</IsCategoryRoot>
+                              <Ancestors>
+                                <BrowseNode>
+                                  <BrowseNodeId>133140011</BrowseNodeId>
+                                  <Name>Kindle Store</Name>
+                                </BrowseNode>
+                              </Ancestors>
+                            </BrowseNode>
+                          </Ancestors>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>158280011</BrowseNodeId>
+          <Name>Religion &amp; Spirituality</Name>
+          <Children>
+            <BrowseNode>
+              <BrowseNodeId>158281011</BrowseNodeId>
+              <Name>Bible &amp; Other Sacred Texts</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>158287011</BrowseNodeId>
+              <Name>Buddhism</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>158296011</BrowseNodeId>
+              <Name>Christianity</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>158442011</BrowseNodeId>
+              <Name>Hinduism</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>158443011</BrowseNodeId>
+              <Name>Islam</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>158454011</BrowseNodeId>
+              <Name>Judaism</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>158479011</BrowseNodeId>
+              <Name>New Age</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>158503011</BrowseNodeId>
+              <Name>Occult</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>158520011</BrowseNodeId>
+              <Name>Other Eastern Religions</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>158532011</BrowseNodeId>
+              <Name>Other Practices</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>158541011</BrowseNodeId>
+              <Name>Religious Studies</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>158551011</BrowseNodeId>
+              <Name>Spirituality</Name>
+            </BrowseNode>
+          </Children>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>154606011</BrowseNodeId>
+              <Name>Kindle eBooks</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>133141011</BrowseNodeId>
+                  <Name>Categories</Name>
+                  <IsCategoryRoot>1</IsCategoryRoot>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>133140011</BrowseNodeId>
+                      <Name>Kindle Store</Name>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+      </BrowseNodes>
+    </Item>
+    <Item>
+      <ASIN>0679405739</ASIN>
+      <DetailPageURL>http://www.amazon.com/War-Peace-Set-Leo-Tolstoy/dp/0679405739%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0679405739</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/War-Peace-Set-Leo-Tolstoy/dp/tech-data/0679405739%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0679405739</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3D0679405739%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0679405739</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3D0679405739%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0679405739</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3D0679405739%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0679405739</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/0679405739%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0679405739</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/0679405739%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0679405739</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/0679405739%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0679405739</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SalesRank>40638</SalesRank>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/41bW8UWE2uL._SL75_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">59</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/41bW8UWE2uL._SL160_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">125</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/41bW8UWE2uL.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">392</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/41bW8UWE2uL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">24</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/41bW8UWE2uL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">59</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/41bW8UWE2uL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">59</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/41bW8UWE2uL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">86</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/41bW8UWE2uL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">125</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/41bW8UWE2uL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">392</Width>
+          </LargeImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Author>Leo Tolstoy</Author>
+        <Binding>Hardcover</Binding>
+        <EAN>9780679405733</EAN>
+        <EANList>
+          <EANListElement>9780679405733</EANListElement>
+        </EANList>
+        <Edition>Reprint.</Edition>
+        <Format>Box set</Format>
+        <ISBN>0679405739</ISBN>
+        <IsEligibleForTradeIn>1</IsEligibleForTradeIn>
+        <ItemDimensions>
+          <Height Units="hundredths-inches">394</Height>
+          <Length Units="hundredths-inches">862</Length>
+          <Weight Units="hundredths-pounds">421</Weight>
+          <Width Units="hundredths-inches">546</Width>
+        </ItemDimensions>
+        <Label>Everyman's Library</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>4500</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$45.00</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Everyman's Library</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>600</NumberOfPages>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">402</Height>
+          <Length Units="hundredths-inches">890</Length>
+          <Weight Units="hundredths-pounds">428</Weight>
+          <Width Units="hundredths-inches">551</Width>
+        </PackageDimensions>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>1992-12-07</PublicationDate>
+        <Publisher>Everyman's Library</Publisher>
+        <ReleaseDate>1992-12-07</ReleaseDate>
+        <SKU>1934433880</SKU>
+        <Studio>Everyman's Library</Studio>
+        <Title>War and Peace (3 Volume Set)</Title>
+        <TradeInValue>
+          <Amount>673</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$6.73</FormattedPrice>
+        </TradeInValue>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>2497</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$24.97</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>2241</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$22.41</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>26</TotalNew>
+        <TotalUsed>18</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <MoreOffersUrl>http://www.amazon.com/gp/offer-listing/0679405739%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0679405739</MoreOffersUrl>
+        <Offer>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>svvrfIjBmD0fU%2FUz3FdPZEo37QztsFImOkrcgrAbhX7HhVglbTiBST4mPAa%2BbCe3R5EPAt1AScBpn8tGloVTs17xfVLHX1sTPH1scy76P3w%3D</OfferListingId>
+            <Price>
+              <Amount>2970</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$29.70</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>1530</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$15.30</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>34</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+      <CustomerReviews>
+        <IFrameURL>http://www.amazon.com/reviews/iframe?akid=AKIAJAMX5IXWWESXVREA&amp;alinkCode=xm2&amp;asin=0679405739&amp;atag=sb05e-20&amp;exp=2011-11-15T20%3A51%3A10Z&amp;v=2&amp;sig=n8lek291B8TcYuMBbdKuxxXPs%2BRy%2BWQNNvPuTOzl8XI%3D</IFrameURL>
+        <HasReviews>true</HasReviews>
+      </CustomerReviews>
+      <EditorialReviews>
+        <EditorialReview>
+          <Source>Product Description</Source>
+          <Content>(Book Jacket Status: Not Jacketed)&lt;br&gt;&lt;br&gt;Three-Volume Boxed Set</Content>
+          <IsLinkSuppressed>0</IsLinkSuppressed>
+        </EditorialReview>
+      </EditorialReviews>
+      <SimilarProducts>
+        <SimilarProduct>
+          <ASIN>0199536066</ASIN>
+          <Title>Anna Karenina (Oxford World's Classics)</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>0451525264</ASIN>
+          <Title>Les Mis&#xE9;rables (Signet Classics)</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>0679734503</ASIN>
+          <Title>Crime and Punishment</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>0375702245</ASIN>
+          <Title>The Idiot</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>0374528373</ASIN>
+          <Title>The Brothers Karamazov</Title>
+        </SimilarProduct>
+      </SimilarProducts>
+      <BrowseNodes>
+        <BrowseNode>
+          <BrowseNodeId>10399</BrowseNodeId>
+          <Name>Classics</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>17</BrowseNodeId>
+              <Name>Literature &amp; Fiction</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>1000</BrowseNodeId>
+                  <Name>Subjects</Name>
+                  <IsCategoryRoot>1</IsCategoryRoot>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>283155</BrowseNodeId>
+                      <Name>Books</Name>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>10177</BrowseNodeId>
+          <Name>Historical</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>10134</BrowseNodeId>
+              <Name>Genre Fiction</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>17</BrowseNodeId>
+                  <Name>Literature &amp; Fiction</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>1000</BrowseNodeId>
+                      <Name>Subjects</Name>
+                      <IsCategoryRoot>1</IsCategoryRoot>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>283155</BrowseNodeId>
+                          <Name>Books</Name>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>10195</BrowseNodeId>
+          <Name>War</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>10134</BrowseNodeId>
+              <Name>Genre Fiction</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>17</BrowseNodeId>
+                  <Name>Literature &amp; Fiction</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>1000</BrowseNodeId>
+                      <Name>Subjects</Name>
+                      <IsCategoryRoot>1</IsCategoryRoot>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>283155</BrowseNodeId>
+                          <Name>Books</Name>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>10132</BrowseNodeId>
+          <Name>Literary</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>17</BrowseNodeId>
+              <Name>Literature &amp; Fiction</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>1000</BrowseNodeId>
+                  <Name>Subjects</Name>
+                  <IsCategoryRoot>1</IsCategoryRoot>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>283155</BrowseNodeId>
+                      <Name>Books</Name>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+      </BrowseNodes>
+    </Item>
+    <Item>
+      <ASIN>0333027345</ASIN>
+      <DetailPageURL>http://www.amazon.com/War-Peace-Leo-Tolstoy/dp/0333027345%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0333027345</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/War-Peace-Leo-Tolstoy/dp/tech-data/0333027345%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0333027345</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3D0333027345%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0333027345</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3D0333027345%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0333027345</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3D0333027345%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0333027345</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/0333027345%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0333027345</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/0333027345%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0333027345</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/0333027345%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0333027345</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SalesRank>1016539</SalesRank>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/418ZqWoykvL._SL75_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">46</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/418ZqWoykvL._SL160_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">99</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/418ZqWoykvL.jpg</URL>
+        <Height Units="pixels">431</Height>
+        <Width Units="pixels">266</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/418ZqWoykvL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">19</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/418ZqWoykvL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">46</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/418ZqWoykvL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">46</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/418ZqWoykvL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">68</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/418ZqWoykvL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">99</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/418ZqWoykvL.jpg</URL>
+            <Height Units="pixels">431</Height>
+            <Width Units="pixels">266</Width>
+          </LargeImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Author>Leo Tolstoy</Author>
+        <Binding>Hardcover</Binding>
+        <EAN>9780333027349</EAN>
+        <EANList>
+          <EANListElement>9780333027349</EANListElement>
+        </EANList>
+        <Edition>Inner Sanctum</Edition>
+        <ISBN>0333027345</ISBN>
+        <Label>Simon &amp; Schuster</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
+        <Manufacturer>Simon &amp; Schuster</Manufacturer>
+        <NumberOfPages>1352</NumberOfPages>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">240</Height>
+          <Length Units="hundredths-inches">840</Length>
+          <Weight Units="hundredths-pounds">320</Weight>
+          <Width Units="hundredths-inches">580</Width>
+        </PackageDimensions>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>1942</PublicationDate>
+        <Publisher>Simon &amp; Schuster</Publisher>
+        <SKU>6759557</SKU>
+        <Studio>Simon &amp; Schuster</Studio>
+        <Title>War and Peace</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestUsedPrice>
+          <Amount>4496</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$44.96</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>7</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+        <MoreOffersUrl>0</MoreOffersUrl>
+      </Offers>
+      <CustomerReviews>
+        <IFrameURL>http://www.amazon.com/reviews/iframe?akid=AKIAJAMX5IXWWESXVREA&amp;alinkCode=xm2&amp;asin=0333027345&amp;atag=sb05e-20&amp;exp=2011-11-15T20%3A51%3A10Z&amp;v=2&amp;sig=H0AgjU1RjYVFLldPOtExrkzKJD0hxfcus%2FN%2BCXUDb2g%3D</IFrameURL>
+        <HasReviews>true</HasReviews>
+      </CustomerReviews>
+      <SimilarProducts>
+        <SimilarProduct>
+          <ASIN>0679734503</ASIN>
+          <Title>Crime and Punishment</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>1400079985</ASIN>
+          <Title>War and Peace (Vintage Classics)</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>0143039431</ASIN>
+          <Title>The Grapes of Wrath</Title>
+        </SimilarProduct>
+      </SimilarProducts>
+      <BrowseNodes>
+        <BrowseNode>
+          <BrowseNodeId>1000</BrowseNodeId>
+          <Name>Subjects</Name>
+          <IsCategoryRoot>1</IsCategoryRoot>
+          <Children>
+            <BrowseNode>
+              <BrowseNodeId>1</BrowseNodeId>
+              <Name>Arts &amp; Photography</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>2</BrowseNodeId>
+              <Name>Biographies &amp; Memoirs</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>3</BrowseNodeId>
+              <Name>Business &amp; Investing</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>3248857011</BrowseNodeId>
+              <Name>Calendars</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>4</BrowseNodeId>
+              <Name>Children's Books</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>12290</BrowseNodeId>
+              <Name>Christian Books &amp; Bibles</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>4366</BrowseNodeId>
+              <Name>Comics &amp; Graphic Novels</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>5</BrowseNodeId>
+              <Name>Computers &amp; Technology</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>6</BrowseNodeId>
+              <Name>Cookbooks, Food &amp; Wine</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>48</BrowseNodeId>
+              <Name>Crafts, Hobbies &amp; Home</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>21</BrowseNodeId>
+              <Name>Education &amp; Reference</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>301889</BrowseNodeId>
+              <Name>Gay &amp; Lesbian</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>10</BrowseNodeId>
+              <Name>Health, Fitness &amp; Dieting</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>9</BrowseNodeId>
+              <Name>History</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>86</BrowseNodeId>
+              <Name>Humor &amp; Entertainment</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>10777</BrowseNodeId>
+              <Name>Law</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>17</BrowseNodeId>
+              <Name>Literature &amp; Fiction</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>173514</BrowseNodeId>
+              <Name>Medical Books</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>18</BrowseNodeId>
+              <Name>Mystery, Thriller &amp; Suspense</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>20</BrowseNodeId>
+              <Name>Parenting &amp; Relationships</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>3377866011</BrowseNodeId>
+              <Name>Politics &amp; Social Sciences</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>173507</BrowseNodeId>
+              <Name>Professional &amp; Technical</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>22</BrowseNodeId>
+              <Name>Religion &amp; Spirituality</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>23</BrowseNodeId>
+              <Name>Romance</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>75</BrowseNodeId>
+              <Name>Science &amp; Math</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>25</BrowseNodeId>
+              <Name>Science Fiction &amp; Fantasy</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>4736</BrowseNodeId>
+              <Name>Self-Help</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>26</BrowseNodeId>
+              <Name>Sports &amp; Outdoors</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>28</BrowseNodeId>
+              <Name>Teens</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>27</BrowseNodeId>
+              <Name>Travel</Name>
+            </BrowseNode>
+          </Children>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>283155</BrowseNodeId>
+              <Name>Books</Name>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+      </BrowseNodes>
+    </Item>
+    <Item>
+      <ASIN>B003JMEKFC</ASIN>
+      <DetailPageURL>http://www.amazon.com/WAR-PEACE-PUBLISHED-ANNOTATIONS-ebook/dp/B003JMEKFC%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB003JMEKFC</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/WAR-PEACE-PUBLISHED-ANNOTATIONS-ebook/dp/tech-data/B003JMEKFC%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB003JMEKFC</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB003JMEKFC%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB003JMEKFC</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB003JMEKFC%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB003JMEKFC</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB003JMEKFC%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB003JMEKFC</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/B003JMEKFC%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB003JMEKFC</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/B003JMEKFC%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB003JMEKFC</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/B003JMEKFC%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB003JMEKFC</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SalesRank>39159</SalesRank>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/518K3ybrqhL._SL75_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">60</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/518K3ybrqhL._SL160_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">128</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/518K3ybrqhL.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">401</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/518K3ybrqhL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">24</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/518K3ybrqhL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">60</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/518K3ybrqhL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">60</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/518K3ybrqhL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">88</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/518K3ybrqhL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">128</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/518K3ybrqhL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">401</Width>
+          </LargeImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Author>Leo Tolstoy</Author>
+        <Binding>Kindle Edition</Binding>
+        <Format>Kindle eBook</Format>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$9.99</FormattedPrice>
+        </ListPrice>
+        <NumberOfItems>1</NumberOfItems>
+        <ProductGroup>eBooks</ProductGroup>
+        <ProductTypeName>ABIS_EBOOKS</ProductTypeName>
+        <PublicationDate>2010-04-27</PublicationDate>
+        <ReleaseDate>2010-04-27</ReleaseDate>
+        <Title>WAR AND PEACE - ORIGINAL FIRST EDITION PUBLISHED FOR KINDLE - ENGLISH VERSION [INCLUDES BONUS ANNOTATIONS]</Title>
+      </ItemAttributes>
+      <CustomerReviews>
+        <IFrameURL>http://www.amazon.com/reviews/iframe?akid=AKIAJAMX5IXWWESXVREA&amp;alinkCode=xm2&amp;asin=B003JMEKFC&amp;atag=sb05e-20&amp;exp=2011-11-15T20%3A51%3A10Z&amp;v=2&amp;sig=n1XlRT1lrueFtyuLZMxXhNMOmiFMpZdHgQPOAibqIGc%3D</IFrameURL>
+        <HasReviews>false</HasReviews>
+      </CustomerReviews>
+      <EditorialReviews>
+        <EditorialReview>
+          <Source>Product Description</Source>
+          <Content>This unique version includes bonus annotations including:&lt;br /&gt;&lt;br /&gt; - Detailed biography of Leo Tolstoy&lt;br /&gt; - Literary Critique&lt;br /&gt; - Historical Context&lt;br /&gt;&lt;br /&gt;War and Peace, a Russian novel by Leo Tolstoy, is considered one of the world's greatest works of fiction. It is regarded, along with Anna Karenina (1873&#x2013;1877), as his finest literary achievement.&lt;br /&gt;&lt;br /&gt;Epic in scale, War and Peace delineates in graphic detail events leading up to Napoleon's invasion of Russia, and the impact of the Napoleonic era on Tsarist society, as seen through the eyes of five Russian aristocratic families.&lt;br /&gt;&lt;br /&gt;Portions of an earlier version having been serialized in the magazine The Russian Messenger between 1865 and 1867, the novel was first published in its entirety in 1869. Newsweek in 2009 ranked it top of its list of Top 100 Books.&lt;br /&gt;&lt;br /&gt;Tolstoy himself, somewhat enigmatically, said of War and Peace that it was "not a novel, even less is it a poem, and still less an historical chronicle."&lt;br /&gt;&lt;br /&gt;War and Peace is famously long for a novel (though not the longest by any means). It is subdivided into four books or volumes, each with subparts containing many chapters.&lt;br /&gt;&lt;br /&gt;Tolstoy got the title, and some of his themes, from an 1861 work of Proudhon: La Guerre et la Paix. Tolstoy had served in the Crimean War and written a series of short stories and novellas featuring scenes of war. He began writing War and Peace in the year that he finally married and settled down at his country estate. During the writing of the second half of the book, after the first half had already been written under the name "1805", he read widely, acknowledging Schopenhauer as one of his main inspirations, although he developed his own views of history and the role of the individual within it.&lt;br /&gt;&lt;br /&gt;The novel can be generally classified as historical fiction. It contains elements present in many types of popular 18th and 19th century literature, especially the romance novel. War and Peace attains its literary status by transcending genres. Tolstoy was instrumental in bringing a new kind of consciousness to the novel. His narrative structure is noted for its "god-like" ability to hover over and within events, but also swiftly and seamlessly to take a particular character's point of view. His use of visual detail is often cinematic in its scope, using the literary equivalents of panning, wide shots and close-ups, to give dramatic interest to battles and ballrooms alike. These devices, while not exclusive to Tolstoy, are part of the new novel that is arising in the mid-19th century and of which Tolstoy proves himself a master.&lt;br /&gt;</Content>
+          <IsLinkSuppressed>0</IsLinkSuppressed>
+        </EditorialReview>
+        <EditorialReview>
+          <Source>Product Description</Source>
+          <Content>This unique version includes bonus annotations including:&lt;br&gt;&lt;br&gt; - Detailed biography of Leo Tolstoy&lt;br&gt; - Literary Critique&lt;br&gt; - Historical Context&lt;br&gt;&lt;br&gt;War and Peace, a Russian novel by Leo Tolstoy, is considered one of the world's greatest works of fiction. It is regarded, along with Anna Karenina (1873&#x2013;1877), as his finest literary achievement.&lt;br&gt;&lt;br&gt;Epic in scale, War and Peace delineates in graphic detail events leading up to Napoleon's invasion of Russia, and the impact of the Napoleonic era on Tsarist society, as seen through the eyes of five Russian aristocratic families.&lt;br&gt;&lt;br&gt;Portions of an earlier version having been serialized in the magazine The Russian Messenger between 1865 and 1867, the novel was first published in its entirety in 1869. Newsweek in 2009 ranked it top of its list of Top 100 Books.&lt;br&gt;&lt;br&gt;Tolstoy himself, somewhat enigmatically, said of War and Peace that it was "not a novel, even less is it a poem, and still less an historical chronicle."&lt;br&gt;&lt;br&gt;War and Peace is famously long for a novel (though not the longest by any means). It is subdivided into four books or volumes, each with subparts containing many chapters.&lt;br&gt;&lt;br&gt;Tolstoy got the title, and some of his themes, from an 1861 work of Proudhon: La Guerre et la Paix. Tolstoy had served in the Crimean War and written a series of short stories and novellas featuring scenes of war. He began writing War and Peace in the year that he finally married and settled down at his country estate. During the writing of the second half of the book, after the first half had already been written under the name "1805", he read widely, acknowledging Schopenhauer as one of his main inspirations, although he developed his own views of history and the role of the individual within it.&lt;br&gt;&lt;br&gt;The novel can be generally classified as historical fiction. It contains elements present in many types of popular 18th and 19th century literature, especially the romance novel. War and Peace attains its literary status by transcending genres. Tolstoy was instrumental in bringing a new kind of consciousness to the novel. His narrative structure is noted for its "god-like" ability to hover over and within events, but also swiftly and seamlessly to take a particular character's point of view. His use of visual detail is often cinematic in its scope, using the literary equivalents of panning, wide shots and close-ups, to give dramatic interest to battles and ballrooms alike. These devices, while not exclusive to Tolstoy, are part of the new novel that is arising in the mid-19th century and of which Tolstoy proves himself a master.&lt;br&gt;</Content>
+          <IsLinkSuppressed>0</IsLinkSuppressed>
+        </EditorialReview>
+      </EditorialReviews>
+      <SimilarProducts>
+        <SimilarProduct>
+          <ASIN>B001CBMX7Y</ASIN>
+          <Title>War and Peace</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>B004ELAHJA</ASIN>
+          <Title>War and Peace (Cambridge World Classics) Critical Edition (Annotated) (Complete Works of Leo Tolstoy / Complete Works of Leo Tolstoi)</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>B004C058OW</ASIN>
+          <Title>War and Peace (Complete Version, Best Navigation, Active TOC)</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>B0033UT24E</ASIN>
+          <Title>War and Remembrance</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>B004J4X9L0</ASIN>
+          <Title>Catherine the Great: Portrait of a Woman</Title>
+        </SimilarProduct>
+      </SimilarProducts>
+      <BrowseNodes>
+        <BrowseNode>
+          <BrowseNodeId>5011</BrowseNodeId>
+          <Name>Military</Name>
+          <Children>
+            <BrowseNode>
+              <BrowseNodeId>5012</BrowseNodeId>
+              <Name>Aviation</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>1043892</BrowseNodeId>
+              <Name>Canada</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>5015</BrowseNodeId>
+              <Name>Intelligence &amp; Espionage</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>387040011</BrowseNodeId>
+              <Name>Iraq War</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>5016</BrowseNodeId>
+              <Name>Korean War</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>16233491</BrowseNodeId>
+              <Name>Life &amp; Institutions</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>5017</BrowseNodeId>
+              <Name>Napoleonic Wars</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>5018</BrowseNodeId>
+              <Name>Naval</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>5019</BrowseNodeId>
+              <Name>Pictorials</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>16244451</BrowseNodeId>
+              <Name>Prisoners of War</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>16244121</BrowseNodeId>
+              <Name>Regiments</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>5020</BrowseNodeId>
+              <Name>Strategy</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>5021</BrowseNodeId>
+              <Name>Uniforms</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>5022</BrowseNodeId>
+              <Name>United States</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>5025</BrowseNodeId>
+              <Name>Vietnam War</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>1043894</BrowseNodeId>
+              <Name>War of 1812</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>5026</BrowseNodeId>
+              <Name>Weapons &amp; Warfare</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>5030</BrowseNodeId>
+              <Name>World War I</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>5031</BrowseNodeId>
+              <Name>World War II</Name>
+            </BrowseNode>
+          </Children>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>9</BrowseNodeId>
+              <Name>History</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>1000</BrowseNodeId>
+                  <Name>Subjects</Name>
+                  <IsCategoryRoot>1</IsCategoryRoot>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>283155</BrowseNodeId>
+                      <Name>Books</Name>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>5032</BrowseNodeId>
+          <Name>Russia</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>9</BrowseNodeId>
+              <Name>History</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>1000</BrowseNodeId>
+                  <Name>Subjects</Name>
+                  <IsCategoryRoot>1</IsCategoryRoot>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>283155</BrowseNodeId>
+                      <Name>Books</Name>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>10399</BrowseNodeId>
+          <Name>Classics</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>17</BrowseNodeId>
+              <Name>Literature &amp; Fiction</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>1000</BrowseNodeId>
+                  <Name>Subjects</Name>
+                  <IsCategoryRoot>1</IsCategoryRoot>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>283155</BrowseNodeId>
+                      <Name>Books</Name>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>10195</BrowseNodeId>
+          <Name>War</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>10134</BrowseNodeId>
+              <Name>Genre Fiction</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>17</BrowseNodeId>
+                  <Name>Literature &amp; Fiction</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>1000</BrowseNodeId>
+                      <Name>Subjects</Name>
+                      <IsCategoryRoot>1</IsCategoryRoot>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>283155</BrowseNodeId>
+                          <Name>Books</Name>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>10132</BrowseNodeId>
+          <Name>Literary</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>17</BrowseNodeId>
+              <Name>Literature &amp; Fiction</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>1000</BrowseNodeId>
+                  <Name>Subjects</Name>
+                  <IsCategoryRoot>1</IsCategoryRoot>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>283155</BrowseNodeId>
+                      <Name>Books</Name>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>157050011</BrowseNodeId>
+          <Name>Fiction Classics</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>157028011</BrowseNodeId>
+              <Name>Fiction</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>154606011</BrowseNodeId>
+                  <Name>Kindle eBooks</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>133141011</BrowseNodeId>
+                      <Name>Categories</Name>
+                      <IsCategoryRoot>1</IsCategoryRoot>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>133140011</BrowseNodeId>
+                          <Name>Kindle Store</Name>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>157072011</BrowseNodeId>
+          <Name>War</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>157054011</BrowseNodeId>
+              <Name>Genre Fiction</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>157028011</BrowseNodeId>
+                  <Name>Fiction</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>154606011</BrowseNodeId>
+                      <Name>Kindle eBooks</Name>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>133141011</BrowseNodeId>
+                          <Name>Categories</Name>
+                          <IsCategoryRoot>1</IsCategoryRoot>
+                          <Ancestors>
+                            <BrowseNode>
+                              <BrowseNodeId>133140011</BrowseNodeId>
+                              <Name>Kindle Store</Name>
+                            </BrowseNode>
+                          </Ancestors>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>156632011</BrowseNodeId>
+          <Name>Japan</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>156627011</BrowseNodeId>
+              <Name>Asia</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>156576011</BrowseNodeId>
+                  <Name>History</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>154606011</BrowseNodeId>
+                      <Name>Kindle eBooks</Name>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>133141011</BrowseNodeId>
+                          <Name>Categories</Name>
+                          <IsCategoryRoot>1</IsCategoryRoot>
+                          <Ancestors>
+                            <BrowseNode>
+                              <BrowseNodeId>133140011</BrowseNodeId>
+                              <Name>Kindle Store</Name>
+                            </BrowseNode>
+                          </Ancestors>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>156658011</BrowseNodeId>
+          <Name>Military</Name>
+          <Children>
+            <BrowseNode>
+              <BrowseNodeId>156659011</BrowseNodeId>
+              <Name>Aviation</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>156661011</BrowseNodeId>
+              <Name>Intelligence &amp; Espionage</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>156662011</BrowseNodeId>
+              <Name>Korean War</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>156663011</BrowseNodeId>
+              <Name>Napoleonic Wars</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>156664011</BrowseNodeId>
+              <Name>Naval</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>156665011</BrowseNodeId>
+              <Name>Pictorials</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>156666011</BrowseNodeId>
+              <Name>Strategy</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>156667011</BrowseNodeId>
+              <Name>Uniforms</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>156668011</BrowseNodeId>
+              <Name>United States</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>156672011</BrowseNodeId>
+              <Name>Vietnam War</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>156673011</BrowseNodeId>
+              <Name>Weapons &amp; Warfare</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>156677011</BrowseNodeId>
+              <Name>World War I</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>156678011</BrowseNodeId>
+              <Name>World War II</Name>
+            </BrowseNode>
+          </Children>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>156576011</BrowseNodeId>
+              <Name>History</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>154606011</BrowseNodeId>
+                  <Name>Kindle eBooks</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>133141011</BrowseNodeId>
+                      <Name>Categories</Name>
+                      <IsCategoryRoot>1</IsCategoryRoot>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>133140011</BrowseNodeId>
+                          <Name>Kindle Store</Name>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>156679011</BrowseNodeId>
+          <Name>Russia</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>156576011</BrowseNodeId>
+              <Name>History</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>154606011</BrowseNodeId>
+                  <Name>Kindle eBooks</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>133141011</BrowseNodeId>
+                      <Name>Categories</Name>
+                      <IsCategoryRoot>1</IsCategoryRoot>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>133140011</BrowseNodeId>
+                          <Name>Kindle Store</Name>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>157053011</BrowseNodeId>
+          <Name>Literary Fiction</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>154606011</BrowseNodeId>
+              <Name>Kindle eBooks</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>133141011</BrowseNodeId>
+                  <Name>Categories</Name>
+                  <IsCategoryRoot>1</IsCategoryRoot>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>133140011</BrowseNodeId>
+                      <Name>Kindle Store</Name>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+      </BrowseNodes>
+    </Item>
+    <Item>
+      <ASIN>1904633854</ASIN>
+      <DetailPageURL>http://www.amazon.com/War-Peace-Collectors-Library-Tolstoy/dp/1904633854%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D1904633854</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/War-Peace-Collectors-Library-Tolstoy/dp/tech-data/1904633854%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D1904633854</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3D1904633854%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D1904633854</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3D1904633854%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D1904633854</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3D1904633854%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D1904633854</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/1904633854%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D1904633854</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/1904633854%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D1904633854</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/1904633854%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D1904633854</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SalesRank>211005</SalesRank>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/51k5lrmbMHL._SL75_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">57</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/51k5lrmbMHL._SL160_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">122</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/51k5lrmbMHL.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">382</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/51k5lrmbMHL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">23</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/51k5lrmbMHL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">57</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/51k5lrmbMHL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">57</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/51k5lrmbMHL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">84</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/51k5lrmbMHL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">122</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/51k5lrmbMHL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">382</Width>
+          </LargeImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Author>Leo Tolstoy</Author>
+        <Binding>Hardcover</Binding>
+        <EAN>9781904633853</EAN>
+        <EANList>
+          <EANListElement>9781904633853</EANListElement>
+        </EANList>
+        <ISBN>1904633854</ISBN>
+        <IsEligibleForTradeIn>1</IsEligibleForTradeIn>
+        <Label>Crw Publishing</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
+        <Manufacturer>Crw Publishing</Manufacturer>
+        <NumberOfItems>3</NumberOfItems>
+        <NumberOfPages>1632</NumberOfPages>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">409</Height>
+          <Length Units="hundredths-inches">646</Length>
+          <Weight Units="hundredths-pounds">238</Weight>
+          <Width Units="hundredths-inches">457</Width>
+        </PackageDimensions>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2004-10-01</PublicationDate>
+        <Publisher>Crw Publishing</Publisher>
+        <SKU>ACOMMP2_book_usedlikenew_1904633854</SKU>
+        <Studio>Crw Publishing</Studio>
+        <Title>War and Peace (Collectors Library)</Title>
+        <TradeInValue>
+          <Amount>176</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$1.76</FormattedPrice>
+        </TradeInValue>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>3184</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$31.84</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>3954</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$39.54</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>4</TotalNew>
+        <TotalUsed>3</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+        <MoreOffersUrl>0</MoreOffersUrl>
+      </Offers>
+      <CustomerReviews>
+        <IFrameURL>http://www.amazon.com/reviews/iframe?akid=AKIAJAMX5IXWWESXVREA&amp;alinkCode=xm2&amp;asin=1904633854&amp;atag=sb05e-20&amp;exp=2011-11-15T20%3A51%3A10Z&amp;v=2&amp;sig=xDjig5uVJnN92iZoBmTIUoA9AAZRrVJ5pD0%2BTaqQ9yI%3D</IFrameURL>
+        <HasReviews>true</HasReviews>
+      </CustomerReviews>
+      <SimilarProducts>
+        <SimilarProduct>
+          <ASIN>0679734503</ASIN>
+          <Title>Crime and Punishment</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>1853260037</ASIN>
+          <Title>The Complete Father Brown Stories</Title>
+        </SimilarProduct>
+      </SimilarProducts>
+      <BrowseNodes>
+        <BrowseNode>
+          <BrowseNodeId>10399</BrowseNodeId>
+          <Name>Classics</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>17</BrowseNodeId>
+              <Name>Literature &amp; Fiction</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>1000</BrowseNodeId>
+                  <Name>Subjects</Name>
+                  <IsCategoryRoot>1</IsCategoryRoot>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>283155</BrowseNodeId>
+                      <Name>Books</Name>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+      </BrowseNodes>
+    </Item>
+    <Item>
+      <ASIN>B004WBJ6Q2</ASIN>
+      <DetailPageURL>http://www.amazon.com/COMPLETE-Complete-Collection-CRITICAL-ebook/dp/B004WBJ6Q2%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB004WBJ6Q2</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/COMPLETE-Complete-Collection-CRITICAL-ebook/dp/tech-data/B004WBJ6Q2%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004WBJ6Q2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB004WBJ6Q2%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004WBJ6Q2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB004WBJ6Q2%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004WBJ6Q2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB004WBJ6Q2%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004WBJ6Q2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/B004WBJ6Q2%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004WBJ6Q2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/B004WBJ6Q2%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004WBJ6Q2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/B004WBJ6Q2%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004WBJ6Q2</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SalesRank>38134</SalesRank>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/51mIRZ9P9cL._SL75_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">56</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/51mIRZ9P9cL._SL160_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">120</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/51mIRZ9P9cL.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">375</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/51mIRZ9P9cL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">22</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/51mIRZ9P9cL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">56</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/51mIRZ9P9cL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">56</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/51mIRZ9P9cL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">82</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/51mIRZ9P9cL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">120</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/51mIRZ9P9cL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">375</Width>
+          </LargeImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Author>Leo Tolstoy</Author>
+        <Author>Leo Tolstoi</Author>
+        <Binding>Kindle Edition</Binding>
+        <Creator Role="Editor">The Complete Novels of Leo Tolstoy</Creator>
+        <Creator Role="Editor">The Complete Works Collection</Creator>
+        <Creator Role="Editor">The Complete Works of Leo Tolstoy</Creator>
+        <Creator Role="Translator">Aylmer and Louise Maude</Creator>
+        <Creator Role="Translator">Constance Garnett</Creator>
+        <Format>Kindle eBook</Format>
+        <Label>The Complete Works Collection</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>499</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$4.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>The Complete Works Collection</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <ProductGroup>eBooks</ProductGroup>
+        <ProductTypeName>ABIS_EBOOKS</ProductTypeName>
+        <PublicationDate>2011-04-12</PublicationDate>
+        <Publisher>The Complete Works Collection</Publisher>
+        <ReleaseDate>2011-04-12</ReleaseDate>
+        <Studio>The Complete Works Collection</Studio>
+        <Title>THE COMPLETE NOVELS OF LEO TOLSTOY (The Complete Works Collection) CRITICAL EDITION: All the Unabridged Novels of Leo Tolstoy | Leo Tolstoi incl. War and ... Anna Karenina Kreutzer Sonata | Leo Tolstoi)</Title>
+      </ItemAttributes>
+      <CustomerReviews>
+        <IFrameURL>http://www.amazon.com/reviews/iframe?akid=AKIAJAMX5IXWWESXVREA&amp;alinkCode=xm2&amp;asin=B004WBJ6Q2&amp;atag=sb05e-20&amp;exp=2011-11-15T20%3A51%3A10Z&amp;v=2&amp;sig=Spbk7RuKVYZHqTmkz%2BhWneBRTQ9ilFIxqluTPLVpIcE%3D</IFrameURL>
+        <HasReviews>false</HasReviews>
+      </CustomerReviews>
+      <EditorialReviews>
+        <EditorialReview>
+          <Source>Product Description</Source>
+          <Content>EVERY SINGLE NOVEL BY LEO TOLSTOY (INCLUDING WAR AND PEACE, ANNA KARENINA, CHILDHOOD, BOYHOOD, YOUTH, THE COSSACKS, KREUTZER SONATA) ESPECIALLY CREATED FOR KINDLE: COMMENTED AND ILLUSTRATED!&lt;br /&gt;&lt;br /&gt;- Photographs of Tolstoy and his family&lt;br /&gt;- Additional biographical and historical materials on various aspects of Tolstoy's life and literary legacy &lt;br /&gt;- Fully Kindle enabled with fully interactive table of contents, Kindle MasterLink technology, Kindle Text-to-Speech (Audiobook) enabled, Kindle Lending Technology enabled&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;TABLE OF CONTENTS&lt;br /&gt;&lt;br /&gt;- LEO TOLSTOY: BIOGRAPHICAL ESSAY&lt;br /&gt;&lt;br /&gt;- CHILDHOOD&lt;br /&gt;- BOYHOOD&lt;br /&gt;- YOUTH&lt;br /&gt;&lt;br /&gt;- FAMILY HAPPINESS&lt;br /&gt;&lt;br /&gt;- THE COSSACKS&lt;br /&gt;&lt;br /&gt;- WAR AND PEACE&lt;br /&gt;- ANNA KARENINA&lt;br /&gt;- THE DEATH OF IVAN ILYCH&lt;br /&gt;&lt;br /&gt;- THE KREUTZER SONATA&lt;br /&gt;- RESURRECTION&lt;br /&gt;- HADJI MURAD&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Excerpt:&lt;br /&gt;&lt;br /&gt;"Happy families are all alike; every unhappy family is unhappy in its own way.&lt;br /&gt;&lt;br /&gt;Everything was in confusion in the Oblonskys' house. The wife had discovered that the husband was carrying on an intrigue with a French girl, who had been a governess in their family, and she had announced to her husband that she could not go on living in the same house with him. This position of affairs had now lasted three days, and not only the husband and wife themselves, but all the members of their family and household, were painfully conscious of it." &lt;br /&gt;&lt;br /&gt;- Anna Karenina&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;WHY BUY BOOKS FROM THE COMPLETE WORKS COLLECTION FOR KINDLE EDITION?&lt;br /&gt;&lt;br /&gt;1. All COMPLETE WORKS COLLECTION Kindle Books are priced as low as possible in order to offer unbelievable value and hours of reading pleasure for Kindle readers. All COMPLETE WORKS COLLECTION Kindle Books bring together ALL the complete works of a classic literary author, character or series in a single, extremely low priced volume in a single download, thereby freeing up valuable space and visual clutter on your Kindle device.&lt;br /&gt;&lt;br /&gt;2. All COMPLETE WORKS COLLECTION Kindle Books are painstakingly formatted especially for Kindle and come with a FULLY INTERACTIVE table of contents DIRECTLY ACCESSIBLE FROM THE KINDLE MENU, Kindle MasterLink (tm) technology, Kindle text-to-speech Audiobook technology, and Kindle Free Lending Technology.&lt;br /&gt;&lt;br /&gt;2. All COMPLETE WORKS COLLECTION Kindle Books come with additional material including photo(s) of the author, and/or critical commentary, and/or biographical or historical background.</Content>
+          <IsLinkSuppressed>0</IsLinkSuppressed>
+        </EditorialReview>
+        <EditorialReview>
+          <Source>Product Description</Source>
+          <Content>EVERY SINGLE NOVEL BY LEO TOLSTOY (INCLUDING WAR AND PEACE, ANNA KARENINA, CHILDHOOD, BOYHOOD, YOUTH, THE COSSACKS, KREUTZER SONATA) ESPECIALLY CREATED FOR KINDLE: COMMENTED AND ILLUSTRATED!&lt;br&gt;&lt;br&gt;- Photographs of Tolstoy and his family&lt;br&gt;- Additional biographical and historical materials on various aspects of Tolstoy's life and literary legacy &lt;br&gt;- Fully Kindle enabled with fully interactive table of contents, Kindle MasterLink technology, Kindle Text-to-Speech (Audiobook) enabled, Kindle Lending Technology enabled&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;TABLE OF CONTENTS&lt;br&gt;&lt;br&gt;- LEO TOLSTOY: BIOGRAPHICAL ESSAY&lt;br&gt;&lt;br&gt;- CHILDHOOD&lt;br&gt;- BOYHOOD&lt;br&gt;- YOUTH&lt;br&gt;&lt;br&gt;- FAMILY HAPPINESS&lt;br&gt;&lt;br&gt;- THE COSSACKS&lt;br&gt;&lt;br&gt;- WAR AND PEACE&lt;br&gt;- ANNA KARENINA&lt;br&gt;- THE DEATH OF IVAN ILYCH&lt;br&gt;&lt;br&gt;- THE KREUTZER SONATA&lt;br&gt;- RESURRECTION&lt;br&gt;- HADJI MURAD&lt;br&gt;&lt;br&gt;&lt;br&gt;Excerpt:&lt;br&gt;&lt;br&gt;"Happy families are all alike; every unhappy family is unhappy in its own way.&lt;br&gt;&lt;br&gt;Everything was in confusion in the Oblonskys' house. The wife had discovered that the husband was carrying on an intrigue with a French girl, who had been a governess in their family, and she had announced to her husband that she could not go on living in the same house with him. This position of affairs had now lasted three days, and not only the husband and wife themselves, but all the members of their family and household, were painfully conscious of it." &lt;br&gt;&lt;br&gt;- Anna Karenina&lt;br&gt;&lt;br&gt;&lt;br&gt;WHY BUY BOOKS FROM THE COMPLETE WORKS COLLECTION FOR KINDLE EDITION?&lt;br&gt;&lt;br&gt;1. All COMPLETE WORKS COLLECTION Kindle Books are priced as low as possible in order to offer unbelievable value and hours of reading pleasure for Kindle readers. All COMPLETE WORKS COLLECTION Kindle Books bring together ALL the complete works of a classic literary author, character or series in a single, extremely low priced volume in a single download, thereby freeing up valuable space and visual clutter on your Kindle device.&lt;br&gt;&lt;br&gt;2. All COMPLETE WORKS COLLECTION Kindle Books are painstakingly formatted especially for Kindle and come with a FULLY INTERACTIVE table of contents DIRECTLY ACCESSIBLE FROM THE KINDLE MENU, Kindle MasterLink (tm) technology, Kindle text-to-speech Audiobook technology, and Kindle Free Lending Technology.&lt;br&gt;&lt;br&gt;2. All COMPLETE WORKS COLLECTION Kindle Books come with additional material including photo(s) of the author, and/or critical commentary, and/or biographical or historical background.</Content>
+          <IsLinkSuppressed>0</IsLinkSuppressed>
+        </EditorialReview>
+      </EditorialReviews>
+      <SimilarProducts>
+        <SimilarProduct>
+          <ASIN>B002KMJV9W</ASIN>
+          <Title>The Works of Fyodor Dostoyevsky (with active table of contents)</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>B004WBJ676</ASIN>
+          <Title>200 GREATEST NOVELS, STORIES &amp; POEMS EVER WRITTEN: THE COMPLETE HARVARD CLASSICS LIBRARY SHELF OF FICTION (The Complete Works Collection) 200 Works! Jane ... Mark TWAIN Tolstoy Shakespeare Poe Balzac)</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>B004VBHAF2</ASIN>
+          <Title>Complete Works of Thomas Hardy (Illustrated)</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>B0027CSJE8</ASIN>
+          <Title>The Complete Novels of George Eliot</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>B00433TO52</ASIN>
+          <Title>William Shakespeare Complete Works Ultimate Collection: 213 Plays, Poems, Sonnets, Poetry including the 16 rare, hard-to-get Apocryphal Plays PLUS Annotations, Commentaries of Works, Full Biography</Title>
+        </SimilarProduct>
+      </SimilarProducts>
+      <BrowseNodes>
+        <BrowseNode>
+          <BrowseNodeId>10132</BrowseNodeId>
+          <Name>Literary</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>17</BrowseNodeId>
+              <Name>Literature &amp; Fiction</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>1000</BrowseNodeId>
+                  <Name>Subjects</Name>
+                  <IsCategoryRoot>1</IsCategoryRoot>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>283155</BrowseNodeId>
+                      <Name>Books</Name>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>11851</BrowseNodeId>
+          <Name>Russian</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>11811</BrowseNodeId>
+              <Name>Instruction</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>11773</BrowseNodeId>
+                  <Name>Foreign Languages</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>21</BrowseNodeId>
+                      <Name>Education &amp; Reference</Name>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>1000</BrowseNodeId>
+                          <Name>Subjects</Name>
+                          <IsCategoryRoot>1</IsCategoryRoot>
+                          <Ancestors>
+                            <BrowseNode>
+                              <BrowseNodeId>283155</BrowseNodeId>
+                              <Name>Books</Name>
+                            </BrowseNode>
+                          </Ancestors>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>157053011</BrowseNodeId>
+          <Name>Literary Fiction</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>154606011</BrowseNodeId>
+              <Name>Kindle eBooks</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>133141011</BrowseNodeId>
+                  <Name>Categories</Name>
+                  <IsCategoryRoot>1</IsCategoryRoot>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>133140011</BrowseNodeId>
+                      <Name>Kindle Store</Name>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>158218011</BrowseNodeId>
+          <Name>Russian</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>158194011</BrowseNodeId>
+              <Name>Instruction</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>158192011</BrowseNodeId>
+                  <Name>Foreign Languages</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>158125011</BrowseNodeId>
+                      <Name>Reference</Name>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>154606011</BrowseNodeId>
+                          <Name>Kindle eBooks</Name>
+                          <Ancestors>
+                            <BrowseNode>
+                              <BrowseNodeId>133141011</BrowseNodeId>
+                              <Name>Categories</Name>
+                              <IsCategoryRoot>1</IsCategoryRoot>
+                              <Ancestors>
+                                <BrowseNode>
+                                  <BrowseNodeId>133140011</BrowseNodeId>
+                                  <Name>Kindle Store</Name>
+                                </BrowseNode>
+                              </Ancestors>
+                            </BrowseNode>
+                          </Ancestors>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+      </BrowseNodes>
+    </Item>
+    <Item>
+      <ASIN>B000RIBJS2</ASIN>
+      <DetailPageURL>http://www.amazon.com/PEACE-Tolstoy-translated-Constance-Garnett/dp/B000RIBJS2%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB000RIBJS2</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/PEACE-Tolstoy-translated-Constance-Garnett/dp/tech-data/B000RIBJS2%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000RIBJS2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3DB000RIBJS2%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000RIBJS2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3DB000RIBJS2%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000RIBJS2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3DB000RIBJS2%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000RIBJS2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/B000RIBJS2%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000RIBJS2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/B000RIBJS2%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000RIBJS2</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/B000RIBJS2%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000RIBJS2</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SalesRank>521071</SalesRank>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/5119hb6scDL._SL75_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">52</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/5119hb6scDL._SL160_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">111</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/5119hb6scDL.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">346</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/5119hb6scDL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">21</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/5119hb6scDL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">52</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/5119hb6scDL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">52</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/5119hb6scDL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">76</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/5119hb6scDL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">111</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/5119hb6scDL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">346</Width>
+          </LargeImage>
+        </ImageSet>
+        <ImageSet Category="variant">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/41-MdulxHIL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">9</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/41-MdulxHIL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">22</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/41-MdulxHIL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">22</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/41-MdulxHIL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">33</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/41-MdulxHIL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">47</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/41-MdulxHIL.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">148</Width>
+          </LargeImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Author>Leo Tolstoy - translated by Constance Garnett.</Author>
+        <Binding>Hardcover</Binding>
+        <Edition>First Edition Thus</Edition>
+        <Label>NY: Modern Library Giant G1. Circa 1942.</Label>
+        <Languages>
+          <Language>
+            <Name>French</Name>
+            <Type>Unknown</Type>
+          </Language>
+        </Languages>
+        <Manufacturer>NY: Modern Library Giant G1. Circa 1942.</Manufacturer>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">190</Height>
+          <Length Units="hundredths-inches">810</Length>
+          <Weight Units="hundredths-pounds">215</Weight>
+          <Width Units="hundredths-inches">560</Width>
+        </PackageDimensions>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>BOOKS_1973_AND_LATER</ProductTypeName>
+        <PublicationDate>1942</PublicationDate>
+        <Publisher>NY: Modern Library Giant G1. Circa 1942.</Publisher>
+        <SKU>6361284</SKU>
+        <Studio>NY: Modern Library Giant G1. Circa 1942.</Studio>
+        <Title>WAR AND PEACE.</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>7995</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$79.95</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>9999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$99.99</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>1</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+        <MoreOffersUrl>0</MoreOffersUrl>
+      </Offers>
+      <CustomerReviews>
+        <IFrameURL>http://www.amazon.com/reviews/iframe?akid=AKIAJAMX5IXWWESXVREA&amp;alinkCode=xm2&amp;asin=B000RIBJS2&amp;atag=sb05e-20&amp;exp=2011-11-15T20%3A51%3A10Z&amp;v=2&amp;sig=LGpGJIAaYPWR2DxuSD1lkS6m3SD0sXq%2F2hoH%2FZJfSWo%3D</IFrameURL>
+        <HasReviews>false</HasReviews>
+      </CustomerReviews>
+      <SimilarProducts>
+        <SimilarProduct>
+          <ASIN>0199536066</ASIN>
+          <Title>Anna Karenina (Oxford World's Classics)</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>0679734503</ASIN>
+          <Title>Crime and Punishment</Title>
+        </SimilarProduct>
+      </SimilarProducts>
+      <BrowseNodes>
+        <BrowseNode>
+          <BrowseNodeId>2642129011</BrowseNodeId>
+          <Name>eBook Readers</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>2642125011</BrowseNodeId>
+              <Name>eBook Readers &amp; Accessories</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>493964</BrowseNodeId>
+                  <Name>Categories</Name>
+                  <IsCategoryRoot>1</IsCategoryRoot>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>172282</BrowseNodeId>
+                      <Name>Electronics</Name>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>1000</BrowseNodeId>
+          <Name>Subjects</Name>
+          <IsCategoryRoot>1</IsCategoryRoot>
+          <Children>
+            <BrowseNode>
+              <BrowseNodeId>1</BrowseNodeId>
+              <Name>Arts &amp; Photography</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>2</BrowseNodeId>
+              <Name>Biographies &amp; Memoirs</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>3</BrowseNodeId>
+              <Name>Business &amp; Investing</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>3248857011</BrowseNodeId>
+              <Name>Calendars</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>4</BrowseNodeId>
+              <Name>Children's Books</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>12290</BrowseNodeId>
+              <Name>Christian Books &amp; Bibles</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>4366</BrowseNodeId>
+              <Name>Comics &amp; Graphic Novels</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>5</BrowseNodeId>
+              <Name>Computers &amp; Technology</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>6</BrowseNodeId>
+              <Name>Cookbooks, Food &amp; Wine</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>48</BrowseNodeId>
+              <Name>Crafts, Hobbies &amp; Home</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>21</BrowseNodeId>
+              <Name>Education &amp; Reference</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>301889</BrowseNodeId>
+              <Name>Gay &amp; Lesbian</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>10</BrowseNodeId>
+              <Name>Health, Fitness &amp; Dieting</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>9</BrowseNodeId>
+              <Name>History</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>86</BrowseNodeId>
+              <Name>Humor &amp; Entertainment</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>10777</BrowseNodeId>
+              <Name>Law</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>17</BrowseNodeId>
+              <Name>Literature &amp; Fiction</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>173514</BrowseNodeId>
+              <Name>Medical Books</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>18</BrowseNodeId>
+              <Name>Mystery, Thriller &amp; Suspense</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>20</BrowseNodeId>
+              <Name>Parenting &amp; Relationships</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>3377866011</BrowseNodeId>
+              <Name>Politics &amp; Social Sciences</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>173507</BrowseNodeId>
+              <Name>Professional &amp; Technical</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>22</BrowseNodeId>
+              <Name>Religion &amp; Spirituality</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>23</BrowseNodeId>
+              <Name>Romance</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>75</BrowseNodeId>
+              <Name>Science &amp; Math</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>25</BrowseNodeId>
+              <Name>Science Fiction &amp; Fantasy</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>4736</BrowseNodeId>
+              <Name>Self-Help</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>26</BrowseNodeId>
+              <Name>Sports &amp; Outdoors</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>28</BrowseNodeId>
+              <Name>Teens</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>27</BrowseNodeId>
+              <Name>Travel</Name>
+            </BrowseNode>
+          </Children>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>283155</BrowseNodeId>
+              <Name>Books</Name>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+      </BrowseNodes>
+    </Item>
+    <Item>
+      <ASIN>0679600795</ASIN>
+      <DetailPageURL>http://www.amazon.com/Anna-Karenina-Leo-Tolstoy/dp/0679600795%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0679600795</DetailPageURL>
+      <ItemLinks>
+        <ItemLink>
+          <Description>Technical Details</Description>
+          <URL>http://www.amazon.com/Anna-Karenina-Leo-Tolstoy/dp/tech-data/0679600795%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0679600795</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Baby Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3D0679600795%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0679600795</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wedding Registry</Description>
+          <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3D0679600795%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0679600795</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Add To Wishlist</Description>
+          <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3D0679600795%26SubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0679600795</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>Tell A Friend</Description>
+          <URL>http://www.amazon.com/gp/pdp/taf/0679600795%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0679600795</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Customer Reviews</Description>
+          <URL>http://www.amazon.com/review/product/0679600795%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0679600795</URL>
+        </ItemLink>
+        <ItemLink>
+          <Description>All Offers</Description>
+          <URL>http://www.amazon.com/gp/offer-listing/0679600795%3FSubscriptionId%3DAKIAJAMX5IXWWESXVREA%26tag%3Dsb05e-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0679600795</URL>
+        </ItemLink>
+      </ItemLinks>
+      <SalesRank>891854</SalesRank>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/410VB660JEL._SL75_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">53</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/410VB660JEL._SL160_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">114</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/410VB660JEL.jpg</URL>
+        <Height Units="pixels">475</Height>
+        <Width Units="pixels">338</Width>
+      </LargeImage>
+      <ImageSets>
+        <ImageSet Category="primary">
+          <SwatchImage>
+            <URL>http://ecx.images-amazon.com/images/I/410VB660JEL._SL30_.jpg</URL>
+            <Height Units="pixels">30</Height>
+            <Width Units="pixels">21</Width>
+          </SwatchImage>
+          <SmallImage>
+            <URL>http://ecx.images-amazon.com/images/I/410VB660JEL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">53</Width>
+          </SmallImage>
+          <ThumbnailImage>
+            <URL>http://ecx.images-amazon.com/images/I/410VB660JEL._SL75_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">53</Width>
+          </ThumbnailImage>
+          <TinyImage>
+            <URL>http://ecx.images-amazon.com/images/I/410VB660JEL._SL110_.jpg</URL>
+            <Height Units="pixels">110</Height>
+            <Width Units="pixels">78</Width>
+          </TinyImage>
+          <MediumImage>
+            <URL>http://ecx.images-amazon.com/images/I/410VB660JEL._SL160_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">114</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://ecx.images-amazon.com/images/I/410VB660JEL.jpg</URL>
+            <Height Units="pixels">475</Height>
+            <Width Units="pixels">338</Width>
+          </LargeImage>
+        </ImageSet>
+      </ImageSets>
+      <ItemAttributes>
+        <Author>Leo Tolstoy</Author>
+        <Binding>Hardcover</Binding>
+        <Creator Role="Editor">Leonard J. Kent</Creator>
+        <Creator Role="Introduction">Leonard J. Kent</Creator>
+        <Creator Role="Editor">Nina Berberova</Creator>
+        <Creator Role="Introduction">Nina Berberova</Creator>
+        <Creator Role="Translator">Constance Garnett</Creator>
+        <EAN>9780679600794</EAN>
+        <EANList>
+          <EANListElement>9780679600794</EANListElement>
+        </EANList>
+        <Format>Deluxe Edition</Format>
+        <ISBN>0679600795</ISBN>
+        <Label>The Modern Library</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>Russian</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>2495</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$24.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>The Modern Library</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>927</NumberOfPages>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">180</Height>
+          <Length Units="hundredths-inches">810</Length>
+          <Weight Units="hundredths-pounds">205</Weight>
+          <Width Units="hundredths-inches">560</Width>
+        </PackageDimensions>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>1993-12-28</PublicationDate>
+        <Publisher>The Modern Library</Publisher>
+        <ReleaseDate>1993-12-28</ReleaseDate>
+        <SKU>1-X-2-0139</SKU>
+        <Studio>The Modern Library</Studio>
+        <Title>Anna Karenina</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>8600</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$86.00</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>137</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$1.37</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>44444</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$444.44</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>5</TotalNew>
+        <TotalUsed>36</TotalUsed>
+        <TotalCollectible>1</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+        <MoreOffersUrl>0</MoreOffersUrl>
+      </Offers>
+      <CustomerReviews>
+        <IFrameURL>http://www.amazon.com/reviews/iframe?akid=AKIAJAMX5IXWWESXVREA&amp;alinkCode=xm2&amp;asin=0679600795&amp;atag=sb05e-20&amp;exp=2011-11-15T20%3A51%3A10Z&amp;v=2&amp;sig=MmxRl7XJEHYC86liC8ZEG072OSM3sEGv46VuOLNtuGk%3D</IFrameURL>
+        <HasReviews>true</HasReviews>
+      </CustomerReviews>
+      <EditorialReviews>
+        <EditorialReview>
+          <Source>Product Description</Source>
+          <Content>This edition, the famous Constance Garnett translation, has been revised throughout by Leonard J. Kent and Nina Berberova.&lt;br&gt;&lt;br&gt;"Happy families are all alike; every unhappy family is unhappy in its own way."&#xA0;&#xA0;So begins &lt;b&gt;Anna Karenina&lt;/b&gt;, Leo Tolstoy's great modern novel of an adulterous affair set against the backdrop of Moscow and St. Petersburg high society in the later half of the nineteenth century.&#xA0;&#xA0;A sophisticated woman who is respectably married to a government bureaucrat, Anna begins a passionate, all-consuming involvement with a rich army officer.&#xA0;&#xA0;Refusing to conduct a discreet affair, she scandalizes society by abandoning both her husband and her young son for Count Vronsky--with tragic consequences.&#xA0;&#xA0;Running parallel is the story of the courtship and marriage of Konstantin Levin (the melancholy nobleman who is Tolstoy's stand-in) and Princess Kitty Shcherbatsky.&#xA0;&#xA0;&lt;br&gt;&lt;br&gt;Levin's spiritual searching and growth reflect the religious ideals that at the time Tolstoy was evolving for himself.&#xA0;&#xA0;Taken together, the two plots embroider a vast canvas that ultimately encompasses all levels of Russian society.&#xA0;&#xA0;"Now and then Tolstoy's novel writes its own self, is produced by its matter, but its subject," noted Vladimir Nabokov.&#xA0;&#xA0;"&lt;b&gt;Anna Karenina&lt;/b&gt; is one of the greatest love stories in world literature."&#xA0;&#xA0;As Matthew Arnold wrote in his celebrated essay on Tolstoy:&#xA0;&#xA0;"We are not to take &lt;b&gt;Anna Karenina&lt;/b&gt; as a work of art; we are to take it as a piece of life."&#xA0;&#xA0;</Content>
+          <IsLinkSuppressed>0</IsLinkSuppressed>
+        </EditorialReview>
+      </EditorialReviews>
+      <SimilarProducts>
+        <SimilarProduct>
+          <ASIN>0679601813</ASIN>
+          <Title>The Brothers Karamazov (Modern Library)</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>0300100701</ASIN>
+          <Title>Anna Karenina in our time</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>0199232768</ASIN>
+          <Title>War and Peace (Oxford World's Classics)</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>1400079985</ASIN>
+          <Title>War and Peace (Vintage Classics)</Title>
+        </SimilarProduct>
+        <SimilarProduct>
+          <ASIN>0679734503</ASIN>
+          <Title>Crime and Punishment</Title>
+        </SimilarProduct>
+      </SimilarProducts>
+      <BrowseNodes>
+        <BrowseNode>
+          <BrowseNodeId>10399</BrowseNodeId>
+          <Name>Classics</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>17</BrowseNodeId>
+              <Name>Literature &amp; Fiction</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>1000</BrowseNodeId>
+                  <Name>Subjects</Name>
+                  <IsCategoryRoot>1</IsCategoryRoot>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>283155</BrowseNodeId>
+                      <Name>Books</Name>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>10433</BrowseNodeId>
+          <Name>Russian</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>10311</BrowseNodeId>
+              <Name>World Literature</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>17</BrowseNodeId>
+                  <Name>Literature &amp; Fiction</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>1000</BrowseNodeId>
+                      <Name>Subjects</Name>
+                      <IsCategoryRoot>1</IsCategoryRoot>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>283155</BrowseNodeId>
+                          <Name>Books</Name>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>10132</BrowseNodeId>
+          <Name>Literary</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>17</BrowseNodeId>
+              <Name>Literature &amp; Fiction</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>1000</BrowseNodeId>
+                  <Name>Subjects</Name>
+                  <IsCategoryRoot>1</IsCategoryRoot>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>283155</BrowseNodeId>
+                      <Name>Books</Name>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>13371</BrowseNodeId>
+          <Name>Historical</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>23</BrowseNodeId>
+              <Name>Romance</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>1000</BrowseNodeId>
+                  <Name>Subjects</Name>
+                  <IsCategoryRoot>1</IsCategoryRoot>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>283155</BrowseNodeId>
+                      <Name>Books</Name>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+      </BrowseNodes>
+    </Item>
+  </Items>
+</ItemSearchResponse>

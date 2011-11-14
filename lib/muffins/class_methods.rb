@@ -16,7 +16,7 @@ module Muffins
 
     # @api public
     def within(path, &block)
-      Muffins::MappingParent.new(:path => path, :klass => self.class).tap { |parent| yield parent }
+      Muffins::MappingParent.new(:path => path, :klass => self).tap { |parent| yield parent }
     end
 
     # @api public

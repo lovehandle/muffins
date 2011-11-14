@@ -5,7 +5,18 @@ describe Muffins do
   class Book
     include Muffins
 
-    path ".book"
+    path "Item"
+
+    map :asin, String, :to => "ASIN"
+    map :sales_rank, Integer, :to => "SalesRank"
+
+    map :description, String, :to => "Content", :within => "EditorialReview"
+
+    within "ItemAttributes" do |attributes|
+      attributes.map :isbn, String, :to => "ISBN"
+      attributes.map :release_date, Date, :to => "ReleaseDate"
+    end
+
   end
 
   subject { Book }
@@ -18,12 +29,39 @@ describe Muffins do
   let(:mapping)  { mock(Muffins::Mapping) }
   let(:mappings) { [] }
 
-  describe ".parse" do
+  context "XML" do
 
-    let(:document) { fixture_file("books.html") }
+    let(:document) { fixture_file("books.xml") }
 
-    it "parses a document based on the path" do
-      subject.parse(document).count.should == 2
+    describe ".parse" do
+      let(:books) { subject.parse(document) }
+      let(:book)  { books.first }
+
+      let(:book_asin) { "160942168X" }
+      let(:book_sales_rank) { 693153 }
+
+      let(:book_isbn) { "160942168X" }
+      let(:book_release_date) { Date.parse("20011-09-01") }
+
+      let(:book_description) do
+        "This epic is considered one of the most celebrated works of"
+      end
+
+      it "initializes an instance for each document node matching the path" do
+        books.size.should == 10
+      end
+
+      it "instantiates instances of the described class" do
+        books.each { |book| book.should be_a(Book) }
+      end
+
+      it "parses each node and sets instance attributes from the mappings" do
+        book.asin.should         eql(book_asin)
+        book.sales_rank.should   eql(book_sales_rank)
+        book.description.should  include(book_description)
+        book.isbn.should         eql(book_isbn)
+        book.release_date.should eql(book_release_date)
+      end
     end
 
   end

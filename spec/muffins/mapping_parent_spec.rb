@@ -2,7 +2,7 @@ require "spec_helper"
 
 describe Muffins::MappingParent do
 
-  class Book
+  class Foo
     include Muffins
   end
 
@@ -13,8 +13,8 @@ describe Muffins::MappingParent do
       :klass => klass }
   end
 
-  let(:klass) { Book    }
-  let(:path)  { "#book" }
+  let(:klass) { Foo    }
+  let(:path)  { "#foo" }
 
   let(:name) { :foo }
   let(:type) { String }

@@ -29,7 +29,16 @@ module Muffins
 
     # @api private
     def body=(body)
-      @body = Nokogiri::HTML(body)
+      case body
+      when String
+        @body = Nokogiri::XML(body)
+      when Nokogiri::XML::Element
+        @body = Nokogiri::XML(body.to_s)
+      when Nokogiri::XML::Document
+        @body = body
+      else
+        raise ArgumentError, "+body+ is an invalid type"
+      end
     end
 
   end

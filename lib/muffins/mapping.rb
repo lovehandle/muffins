@@ -4,7 +4,6 @@ module Muffins
     include Virtus
 
     attribute :name,       Symbol
-    attribute :type,       Class
     attribute :to,         String
     attribute :within,     String
     attribute :collection, Boolean
@@ -14,20 +13,11 @@ module Muffins
       document = Muffins::Document.new(:body => doc)
 
       if collection?
-        document.map(absolute_path) { |node| coerce(node.text) }
+        document.map(absolute_path) { |node| node.text }
       else
-        coerce(document.first(absolute_path).text)
+        node = document.first(absolute_path)
+        node.text if node
       end
-    end
-
-    # @api public
-    def coerce(value)
-      Virtus::Coercion[value.class].send(coercion_method, value)
-    end
-
-    # @api public
-    def coercion_method
-      Virtus::Attribute.determine_type(type).coercion_method
     end
 
     # @api public

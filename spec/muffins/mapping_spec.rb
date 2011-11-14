@@ -23,12 +23,6 @@ describe Muffins::Mapping do
   its(:absolute_path) { should eql("#books > .book > .title") }
   its(:relative_path) { should eql(".book > .title") }
 
-  describe "#coerce" do
-    it "coerces to the set type" do
-      subject.coerce(1).should be_a(String)
-    end
-  end
-
   describe "#parse" do
     context "when collection is false" do
       it { subject.parse(document).should eql("War and Peace (Vintage Classics)") }
