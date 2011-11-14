@@ -7,14 +7,12 @@ module Muffins
 
     # @api public
     def first(path)
-      node = body.at_css(path)
-      node.text if node
+      body.at_css(path)
     end
 
     # @api public
     def all(path)
-      nodes = body.css(path)
-      nodes.map(&:text)
+      body.css(path)
     end
 
     # @api public

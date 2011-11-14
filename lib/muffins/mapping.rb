@@ -14,9 +14,9 @@ module Muffins
       document = Muffins::Document.new(:body => doc)
 
       if collection?
-        document.map(absolute_path) { |node| coerce(node) }
+        document.map(absolute_path) { |node| coerce(node.text) }
       else
-        coerce(document.first(absolute_path))
+        coerce(document.first(absolute_path).text)
       end
     end
 

@@ -21,6 +21,7 @@ Gem::Specification.new do |s|
   runtime_dependencies.each {|lib, version| s.add_runtime_dependency(lib, version) }
 
   development_dependencies = {
+    'rake'   => '~> 0.9.2',
     'rspec'  => '~> 2.7.0'
   }
 

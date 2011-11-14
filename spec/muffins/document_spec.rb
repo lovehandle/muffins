@@ -17,7 +17,7 @@ describe Muffins::Document do
 
     describe "#first" do
       it "returns a string" do
-        subject.first(path).should be_a(String)
+        subject.first(path).should be_a(Nokogiri::XML::Element)
       end
     end
 
@@ -36,7 +36,7 @@ describe Muffins::Document do
 
     describe "#first" do
       it "returns an element" do
-        subject.first(path).should be_a(String)
+        subject.first(path).should be_a(Nokogiri::XML::Element)
       end
     end
 
