@@ -1,3 +1,3 @@
 module Muffins
-  VERSION = "0.0.7.pre.1"
+  VERSION = "0.0.7.pre.2"
 end

@@ -14,8 +14,8 @@ Gem::Specification.new do |s|
   s.rubyforge_project = "muffins"
 
   runtime_dependencies = {
-    'nokogiri'  => '~> 1.5.0',
-    'virtus'    => '~> 0.0.9'
+    'nokogiri'  => '~> 1.5.5',
+    'virtus'    => '~> 0.5.1'
   }
 
   runtime_dependencies.each {|lib, version| s.add_runtime_dependency(lib, version) }
