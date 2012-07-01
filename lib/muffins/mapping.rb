@@ -10,7 +10,7 @@ module Muffins
 
     # @api public
     def parse(doc)
-      document = Muffins::Document.new(:body => doc)
+      document = Muffins::Document.new(:body => doc.to_s)
 
       if collection?
         document.map(absolute_path) { |node| node.text }

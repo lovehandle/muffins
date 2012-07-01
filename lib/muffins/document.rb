@@ -3,16 +3,16 @@ module Muffins
 
     include Virtus
 
-    attribute :body, Class, :reader => :protected
+    attribute :body, String, :reader => :protected
 
     # @api public
     def first(path)
-      body.at_css(path)
+      xml.at_css(path)
     end
 
     # @api public
     def all(path)
-      body.css(path)
+      xml.css(path)
     end
 
     # @api public
@@ -25,21 +25,10 @@ module Muffins
       all(path).each { |node| yield node }
     end
 
-    protected
+    private
 
-    # @api private
-    def body=(body)
-      case body
-      when String
-        @body = Nokogiri::XML(body)
-      when Nokogiri::XML::Element
-        @body = Nokogiri::XML(body.to_s)
-      when Nokogiri::XML::Document
-        @body = body
-      else
-        raise ArgumentError, "+body+ is an invalid type"
-      end
+    def xml
+      @xml ||= Nokogiri::XML(body)
     end
-
   end
 end

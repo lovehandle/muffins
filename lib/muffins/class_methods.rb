@@ -21,7 +21,7 @@ module Muffins
 
     # @api public
     def parse(doc, options = {})
-      document = Muffins::Document.new(:body => doc)
+      document = Muffins::Document.new(:body => doc.to_s)
 
       if options[:single]
         new_from_node(document.first(path))
